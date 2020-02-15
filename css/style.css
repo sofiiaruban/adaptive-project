@@ -50,3 +50,100 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body {
+	background: #ffffff;
+	font: 12px 'Montserrat', Arial, sans-serif;
+}
+.wrapper {
+	margin: 0 auto;
+}
+.header {
+	padding: 80px 0;
+	text-align: center;
+}
+.logo {
+	width: 100px;
+	height: 60px;
+	display: block;
+	margin: 0 auto 80px;
+	padding-top:80px;
+}
+.logo svg {
+	width: 100%;
+}
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	line-height: 24px;
+	margin: 0 auto 80px;
+	width: 403px;
+	text-transform: uppercase;
+}
+main {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0 0 100px;
+}
+.text-area {
+	text-align: center;
+	font-size: 28px;
+	margin: 0 0 80px;
+}
+.title {
+	border: solid #000;
+	border-width: 1px 0 1px 0;
+	padding: 16px;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 0 0 60px;
+	text-align: center;
+} 
+.story {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.story-column {
+	width: calc(50% - 14px);
+	box-sizing: border-box;				
+	background: #000;
+	padding: 50px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	margin: 0 0 28px;
+	font-size: 18px;
+	line-height: 24px;
+}	
+time {
+	font-size: 48px;
+	line-height: 59px;
+}
+.contact form {
+	display: flex;
+	flex-direction: column;
+}
+.contact .message-wrapper {
+	display: flex;
+    width: 100%;
+    border: 1px solid black;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 30px;
+}
+.contact textarea {
+	border: none;
+	flex-grow: 1;
+	resize: none;
+}
+.contact button {
+	padding: 13px 60px;
+	text-transform: uppercase;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
