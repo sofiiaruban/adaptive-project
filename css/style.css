@@ -127,7 +127,6 @@ time {
 }
 .contact .message-wrapper {
 	display: flex;
-    width: 100%;
     border: 1px solid black;
     flex-direction: row;
     align-items: center;
