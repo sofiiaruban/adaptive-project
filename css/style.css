@@ -71,6 +71,10 @@ body {
 .logo svg {
 	width: 100%;
 }
+.burger-menu {
+	display: none;
+}
+
 .nav-list {
 	display: flex;
 	justify-content: space-between;
@@ -79,6 +83,24 @@ body {
 	margin: 0 auto 80px;
 	width: 403px;
 	text-transform: uppercase;
+}
+/*slick*/
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+.slick-slide {
+    margin: 0px 30px;
+}
+.slick-slide img {
+    width: 100%;
+}
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+.slick-slide {
+    transition: all ease-in-out .3s;
 }
 main {
 	width: 1024px;
@@ -89,6 +111,7 @@ main {
 	text-align: center;
 	font-size: 28px;
 	margin: 0 0 80px;
+	padding-top: 80px;
 }
 .title {
 	border: solid #000;
@@ -103,7 +126,6 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
 }
 .story-column {
 	width: calc(50% - 14px);
@@ -146,3 +168,36 @@ time {
 	color: #ffffff;
 }
 
+.slick-dots li button {
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.slick-dots li button:before {
+	display: none;
+}
+.slick-dots li.slick-active button 
+{
+	background-color: #000000;
+}
+
+/*media queries*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  	.burger-menu {
+  		float: left;
+  		display: block;
+  		padding-top: 56px;
+  		padding-left: 48px;
+}
+div.burger-line	{ 	
+	width: 48px;
+	height: 5px;
+	background: #000000;
+	margin-bottom: 5px;
+
+}
+}
