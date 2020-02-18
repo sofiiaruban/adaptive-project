@@ -20,7 +20,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	/* Added it by myself*/
+	/* Added it by myself SR*/
 	text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
@@ -42,7 +42,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-/* Added it by myself*/
+/* Added it by myself SR*/
 a, a:visited, a:hover, a:active {
   color: inherit;
 }
@@ -90,7 +90,7 @@ body {
     margin: 0 auto;
 }
 .slick-slide {
-    margin: 0px 30px;
+    margin: 0px 30px 40px 30px;
 }
 .slick-slide img {
     width: 100%;
@@ -167,6 +167,7 @@ time {
 	background-color: #000000;
 	color: #ffffff;
 }
+/*SLick's dots*/
 
 .slick-dots li button {
 	border: 1px solid black;
@@ -187,17 +188,104 @@ time {
   and (max-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-  	.burger-menu {
-  		float: left;
-  		display: block;
-  		padding-top: 56px;
-  		padding-left: 48px;
-}
-div.burger-line	{ 	
+	.burger-menu {
+	float: left;
+	display: block;
+	padding-top: 56px;
+	padding-left: 48px;
+	}
+	div.burger-line	{ 	
 	width: 48px;
 	height: 5px;
 	background: #000000;
 	margin-bottom: 5px;
+	}
+	.logo {
+	width: 80px;
+	height: 48px;
+	}
+	.nav-list {
+	display: none;
+	}
+	.text-area{
+	font-size: 20px;
+	margin: 48px 100px;
+	}
+	main {
+	width: 928px;
+	}
+	.title {
+	font-size: 28px;
+	margin-bottom: 32px;
+	}
+	.story {
+	display: flex;
+	flex-direction: column;
+	}
+	.story-column {
+	width: 100%;
+	}
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  	.logo {
+	display: none;
+	}
+	.burger-menu {
+		position: absolute;
+		top: 23px;
+		left: 20px;
+		z-index: 666;
+	}
+	.burger-line	{
+		background: red;
+		width: 48px;
+		height: 5px;
+		margin-bottom: 5px;
+	}
+	.nav-list {
+		display: none;
+	}
+	nav {
+		display: none;
+	}
+	.slick-slide {
+    margin: 0;
+	}
+	main {
+		width: 335px;
+	}
+	.story {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.story-column {
+		width: 100%;
+		padding: 20px;
+	}
+	.text-area{
+		font-size: 16px;
+		margin: 24px 0;
+		padding-top: 24px;
+	}
+	.slick-dots li button {
+		width: 8px;
+	    height: 8px;
+	    margin-top: 24px;
+	}
+	.title {
+		font-size: 20px;
+		margin-bottom:24px;
+		}
+	.datetime {
+		font-size: 24px;
+	}
+	.story-column {
+		font-size: 16px;
+	}
 
 }
-}
+
