@@ -74,7 +74,6 @@ body {
 .burger-menu {
 	display: none;
 }
-
 .nav-list {
 	display: flex;
 	justify-content: space-between;
@@ -149,7 +148,7 @@ time {
 }
 .contact .message-wrapper {
 	display: flex;
-    border: 1px solid black;
+    border: 1px solid #000000;
     flex-direction: row;
     align-items: center;
     padding: 50px 30px;
@@ -167,13 +166,21 @@ time {
 	background-color: #000000;
 	color: #ffffff;
 }
+.btn-send-mob {
+	display: none;
+	padding: 16px 99px;
+	text-transform: uppercase;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 24px;
+}
 /*SLick's dots*/
-
 .slick-dots li button {
 	border: 1px solid black;
 	border-radius: 50%;
 }
-
 .slick-dots li button:before {
 	display: none;
 }
@@ -181,7 +188,6 @@ time {
 {
 	background-color: #000000;
 }
-
 /*media queries*/
 @media only screen 
   and (min-device-width: 1024px) 
@@ -225,6 +231,67 @@ time {
 	.story-column {
 	width: 100%;
 	}
+	/*Modal box*/
+	.modal-box{
+		display: none;
+		width: 100%;
+		margin: 0 auto;
+		background-color: #000000;
+		position: fixed; 
+		z-index: 1; 
+	} 
+	.close {
+		color: #ffffff;
+		font-size: 48px;
+		position: absolute;
+		top:40px;
+		left: 32px;
+	}
+	.logo-modal {
+		width: 80px;
+		height: 48px;
+		display: block;
+		margin: 0 auto 80px;
+		padding-top: 48px;
+		margin-bottom: 124px;
+	}
+	textarea.area-modal {
+		background-color: #000000;
+	}
+	.nav-list-modal {
+		display: flex;
+		justify-content: space-between;
+		font-size: 20px;
+		margin: 0 auto 80px;
+		width: 403px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	.contact-modal form {
+		display: flex;
+		flex-direction: column;
+	}
+	.contact-modal .message-wrapper-modal {
+		display: flex;
+	    border: 1px solid #ffffff;
+	    flex-direction: row;
+	    align-items: center;
+	    padding: 50px 30px;
+	    margin: 80px 52px 156px 52px;
+	}
+	.contact-modal textarea {
+		border: none;
+		flex-grow: 1;
+		resize: none;
+	}
+	.btn-send-modal {
+		padding: 13px 60px;
+		text-transform: uppercase;
+		border: 1px solid #ffffff;
+		border-radius: 8px;
+		background-color: #ffffff;
+		color: #000000;
+	}
 }
 @media only screen 
   and (min-device-width: 414px) 
@@ -234,13 +301,14 @@ time {
 	display: none;
 	}
 	.burger-menu {
+		display: block;
 		position: absolute;
 		top: 23px;
 		left: 20px;
 		z-index: 666;
 	}
-	.burger-line	{
-		background: red;
+	.burger-line {
+		background: #ffffff;
 		width: 48px;
 		height: 5px;
 		margin-bottom: 5px;
@@ -279,12 +347,21 @@ time {
 	.title {
 		font-size: 20px;
 		margin-bottom:24px;
-		}
+	}
 	.datetime {
 		font-size: 24px;
 	}
 	.story-column {
 		font-size: 16px;
+	}
+	.btn-send {
+		display: none;
+	}
+	.contact .message-wrapper {
+		margin-bottom: 19px;
+	}
+	.btn-send-mob {
+		display: block;
 	}
 
 }
