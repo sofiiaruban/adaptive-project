@@ -192,7 +192,7 @@ time {
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+								 {
 
 	.burger-menu {
 	float: left;
@@ -238,6 +238,7 @@ time {
 		margin: 0 auto;
 		background-color: #000000;
 		position: fixed; 
+		top: 0;
 		z-index: 1; 
 	} 
 	.close {
@@ -292,11 +293,14 @@ time {
 		background-color: #ffffff;
 		color: #000000;
 	}
+	.btn-send-mob-modal {
+		display: none;
+	}
 }
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+ 							 { 
   	.logo {
 	display: none;
 	}
@@ -364,8 +368,74 @@ time {
 		display: block;
 	}
 	/*modal box*/
-.modal-box { 
-	display: none;
-
-}
+	.modal-box { 
+		display: none;
+		width: 100%;
+		margin: 0 auto;
+		background-color: #000000;
+		position: fixed; 
+		top: 0;
+		z-index: 667; 
+	} 
+	.close {
+		color: #ffffff;
+		font-size: 48px;
+		position: absolute;
+		top:40px;
+		left: 32px;
+	}
+	.logo-modal {
+		width: 80px;
+		height: 48px;
+		display: block;
+		margin: 0 auto 80px;
+		padding-top: 48px;
+		margin-bottom: 124px;
+	}
+	textarea.area-modal {
+		background-color: #000000;
+	}
+	.nav-list-modal {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		font-size: 20px;
+		margin: 0 auto 80px;
+		width: 403px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	.contact-modal form {
+		display: flex;
+		flex-direction: column;
+	}
+	.contact-modal .message-wrapper-modal {
+		display: flex;
+	    border: 1px solid #ffffff;
+	    flex-direction: row;
+	    align-items: center;
+	    padding: 50px 30px;
+	    margin: 90px 20px 19px 20px;
+	    width: 335px;
+	}
+	.contact-modal textarea {
+		border: none;
+		flex-grow: 1;
+		resize: none;
+	}
+	.btn-send-modal {
+		display: none;
+	}
+	.btn-send-mob-modal {
+		display: block;
+		background-color: #ffffff;
+		width: 335px;
+		padding: 13px 60px;
+		text-transform: uppercase;
+		border: 1px solid #ffffff;
+		border-radius: 8px;
+		color: #000000;
+		text-align: center;
+		margin: 0 auto;
+	}
 
