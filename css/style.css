@@ -363,6 +363,9 @@ time {
 	.btn-send-mob {
 		display: block;
 	}
+	/*modal box*/
+.modal-box { 
+	display: none;
 
 }
 
