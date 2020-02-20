@@ -327,7 +327,8 @@ time {
     margin: 0;
 	}
 	main {
-		width: 335px;
+		display: block;
+		width: 80%;
 		margin: 0 auto;
 	}
 	.story {
@@ -390,9 +391,8 @@ time {
 		width: 80px;
 		height: 48px;
 		display: block;
-		margin: 0 auto 80px;
+		margin: 0 auto 48px;
 		padding-top: 48px;
-		margin-bottom: 124px;
 	}
 	textarea.area-modal {
 		background-color: #000000;
@@ -400,10 +400,8 @@ time {
 	.nav-list-modal {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
 		font-size: 20px;
 		margin: 0 auto 80px;
-		width: 403px;
 		text-transform: uppercase;
 		color: #FFFFFF;
 	}
@@ -432,7 +430,6 @@ time {
 		display: block;
 		background-color: #ffffff;
 		width: 335px;
-		padding: 13px 60px;
 		text-transform: uppercase;
 		border: 1px solid #ffffff;
 		border-radius: 8px;
