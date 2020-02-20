@@ -239,7 +239,7 @@ time {
 		background-color: #000000;
 		position: fixed; 
 		top: 0;
-		z-index: 1; 
+		z-index: 2; 
 	} 
 	.close {
 		color: #ffffff;
@@ -309,7 +309,7 @@ time {
 		position: absolute;
 		top: 23px;
 		left: 20px;
-		z-index: 666;
+		z-index: 1;
 	}
 	.burger-line {
 		background: #ffffff;
@@ -328,6 +328,7 @@ time {
 	}
 	main {
 		width: 335px;
+		margin: 0 auto;
 	}
 	.story {
 		display: flex;
@@ -366,6 +367,7 @@ time {
 	}
 	.btn-send-mob {
 		display: block;
+		margin-bottom: 60px;
 	}
 	/*modal box*/
 	.modal-box { 
@@ -375,7 +377,7 @@ time {
 		background-color: #000000;
 		position: fixed; 
 		top: 0;
-		z-index: 667; 
+		z-index: 2; 
 	} 
 	.close {
 		color: #ffffff;
@@ -436,6 +438,5 @@ time {
 		border-radius: 8px;
 		color: #000000;
 		text-align: center;
-		margin: 0 auto;
 	}
 
