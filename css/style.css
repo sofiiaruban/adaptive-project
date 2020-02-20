@@ -395,7 +395,9 @@ time {
 		padding-top: 48px;
 	}
 	textarea.area-modal {
+		box-sizing: border-box;
 		background-color: #000000;
+		width: 100%;
 	}
 	.nav-list-modal {
 		display: flex;
@@ -429,7 +431,7 @@ time {
 	.btn-send-mob-modal {
 		display: block;
 		background-color: #ffffff;
-		width: 335px;
+		width: 100%;
 		text-transform: uppercase;
 		border: 1px solid #ffffff;
 		border-radius: 8px;
