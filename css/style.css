@@ -193,43 +193,42 @@ time {
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
 								 {
-
 	.burger-menu {
-	float: left;
-	display: block;
-	padding-top: 56px;
-	padding-left: 48px;
+		float: left;
+		display: block;
+		padding-top: 56px;
+		padding-left: 48px;
 	}
 	div.burger-line	{ 	
-	width: 48px;
-	height: 5px;
-	background: #000000;
-	margin-bottom: 5px;
+		width: 48px;
+		height: 5px;
+		background: #000000;
+		margin-bottom: 5px;
 	}
 	.logo {
-	width: 80px;
-	height: 48px;
+		width: 80px;
+		height: 48px;
 	}
 	.nav-list {
-	display: none;
+		display: none;
 	}
 	.text-area{
-	font-size: 20px;
-	margin: 48px 100px;
+		font-size: 20px;
+		margin: 48px 100px;
 	}
 	main {
-	width: 928px;
+		width: 928px;
 	}
 	.title {
-	font-size: 28px;
-	margin-bottom: 32px;
+		font-size: 28px;
+		margin-bottom: 32px;
 	}
 	.story {
-	display: flex;
-	flex-direction: column;
+		display: flex;
+		flex-direction: column;
 	}
 	.story-column {
-	width: 100%;
+		width: 100%;
 	}
 	/*Modal box*/
 	.modal-box{
@@ -304,7 +303,7 @@ time {
   and (max-device-width: 736px) 
  							 { 
   	.logo {
-	display: none;
+		display: none;
 	}
 	.burger-menu {
 		display: block;
