@@ -158,6 +158,7 @@ time {
 	border: none;
 	flex-grow: 1;
 	resize: none;
+	text-align: center;
 }
 .contact button {
 	padding: 13px 60px;
