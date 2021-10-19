@@ -116,6 +116,7 @@ main {
 .title {
 	border: solid #000;
 	border-width: 1px 0 1px 0;
+	border-radius: 5px;
 	padding: 16px;
 	font-size: 40px;
 	text-transform: uppercase;
@@ -150,12 +151,14 @@ time {
 .contact .message-wrapper {
 	display: flex;
     border: 1px solid #000000;
+	border-radius: 5px;
     flex-direction: row;
     align-items: center;
     padding: 50px 30px;
 }
 .contact textarea {
 	border: none;
+	border-radius: 5px;
 	flex-grow: 1;
 	resize: none;
 	text-align: center;
@@ -281,6 +284,7 @@ time {
 	.contact-modal .message-wrapper-modal {
 		display: flex;
 	    border: 1px solid #ffffff;
+		border-radius: 5px;
 	    flex-direction: row;
 	    align-items: center;
 	    padding: 50px 30px;
@@ -288,6 +292,7 @@ time {
 	}
 	.contact-modal textarea {
 		border: none;
+		border-radius: 5px;
 		flex-grow: 1;
 		resize: none;
 	}
@@ -428,6 +433,7 @@ time {
 	.contact-modal .message-wrapper-modal {
 		display: flex;
 	    border: 1px solid #ffffff;
+		border-radius: 5px;
 	    flex-direction: row;
 	    align-items: center;
 	    padding: 50px 30px;
@@ -435,6 +441,7 @@ time {
 	}
 	.contact-modal textarea {
 		border: none;
+		border-radius: 5px;
 		flex-grow: 1;
 		resize: none;
 		text-align: center;
