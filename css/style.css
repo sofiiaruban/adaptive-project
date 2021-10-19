@@ -307,6 +307,7 @@ time {
 	}
 	.btn-send-mob-modal {
 		display: none;
+		font-size: 24px;
 	}
 }
 @media only screen 
