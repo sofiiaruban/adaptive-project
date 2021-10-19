@@ -129,7 +129,8 @@ main {
 }
 .story-column {
 	width: calc(50% - 14px);
-	box-sizing: border-box;				
+	box-sizing: border-box;	
+	border-radius: 5px;			
 	background: #000;
 	padding: 50px;
 	color: #fff;
